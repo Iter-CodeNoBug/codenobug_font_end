@@ -1,0 +1,12 @@
+[
+    {
+        "urlImage": "http://localhost:8080/assets/image/slider/slider_1.png",
+        "slideTitle": "The Best Games Out There",
+        "slideDes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus."
+    },
+    {
+        "urlImage": "http://localhost:8080/assets/image/slider/slider_2.png",
+        "slideTitle": "The Best Games Out There",
+        "slideDes": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus."
+    }
+]

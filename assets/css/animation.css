@@ -1,0 +1,54 @@
+@keyframes fade-in {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-webkit-keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-in {
+    -webkit-animation-name: fade-in;
+    animation-name: fade-in;
+}
+
+@keyframes animation1 {
+    0% {transform: translateX(100vw);}
+    100% {transform: translateX(-60vw);}
+}
+
+@keyframes fly-down {
+    from {transform: translateY(-50px);}
+    to {transform: translateY(0);}
+}
+
+@keyframes loading {
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+
+    25% {
+        border-top-color: blueviolet;
+        border-right-color: blueviolet;
+    }
+
+    50% {
+        border-top-color: cadetblue;
+        border-right-color: cadetblue;
+    }
+
+    75% {
+        border-top-color: blue;
+        border-right-color: blue;
+    }
+
+    100% {
+        border-top-color: #ffb320;
+        border-right-color: #ffb320;
+    }
+}
+
+.fly-down {
+    -webkit-animation-name: fly-down;
+    animation-name: fly-down;
+}
